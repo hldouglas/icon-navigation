@@ -22,11 +22,13 @@ a {
 
 .btn {
   background-color: #15114c;
-  border: 3px solid #15114c;
+  border: 3px solid #423ca3;
 }
 
-.btn:hover {
-  background-color: #423ca3;
+.btn:hover, a:hover {
+  background-color: #fff;
+  border: 3px transparent #423ca3;
+  color: #15114c;
 }
 
 @media only screen and (min-width: 20em) {
