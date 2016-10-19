@@ -3,8 +3,17 @@ html {
   color: #fff;
 }
 
-header {
+.masthead {
   background-color: #423ca3;
+}
+
+.logo {
+  background-color: #423ca3;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
 }
 
 a {
@@ -14,4 +23,42 @@ a {
 .btn {
   background-color: #15114c;
   border: 3px solid #15114c;
+}
+
+.btn:hover {
+  background-color: #423ca3;
+}
+
+@media only screen and (min-width: 20em) {
+
+  h1 {
+    text-align: center;
+    padding-top: 1.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  nav {
+    float: right;
+  }
+
 }
